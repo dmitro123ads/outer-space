@@ -84,6 +84,65 @@ header {
 .info-cont1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.173)), url(../img/black-hole.webp);
   background-size: cover;
+  background-position: center;
   height: 600px;
   color: aliceblue;
+  padding: 40px;
+}
+
+.info-name {
+  font-size: 36px;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.info-title {
+  font-size: 28px;
+}
+
+.add-info-cont {
+  width: 550px;
+}
+
+.learned {
+  color: aliceblue;
+  text-align: center;
+  font-size: 44px;
+  margin-top: 50px;
+}
+
+.info-cont2 {
+  margin-top: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.173)), url(../img/pilars.webp);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: aliceblue;
+  padding: 40px;
+}
+
+.footer-grid {
+  display: grid;
+  padding-left: 120px;
+  grid-template-columns: 1fr 2fr;
+  background-color: rgba(0, 0, 0, 0.7607843137);
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.rights {
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.7607843137);
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.footer-text {
+  padding-left: 200px;
+  margin-top: 40px;
+  text-align: center;
 }

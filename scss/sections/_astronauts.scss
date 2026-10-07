@@ -1,0 +1,20 @@
+.astronauts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    gap: 40px;
+}
+.astr-card{
+    width: 300px;
+    color: aliceblue;
+}
+.astr-card img{
+    width: 300px;
+    height: 400px;
+}
+.astro-title{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 44px;
+}
